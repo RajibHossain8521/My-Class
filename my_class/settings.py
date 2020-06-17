@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Developer app
-    'home_page'.
+    'home_page',
     'git_class',
 ]
 
