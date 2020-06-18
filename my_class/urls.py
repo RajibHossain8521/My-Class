@@ -19,5 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home_page.urls')),
-    #path('myclass/tutorials/git', include('git_class.urls')),
+    path('myclass/tutorials/git', include('git_class.urls')),
 ]
